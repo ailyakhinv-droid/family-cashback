@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBQT6fgGpfUpfvG0jPZlEEnz3F9_PBOsrk",
+  authDomain: "family-cashback.firebaseapp.com",
+  projectId: "family-cashback",
+  storageBucket: "family-cashback.firebasestorage.app",
+  messagingSenderId: "204398028562",
+  appId: "1:204398028562:web:f8244978384234ac48f5cb"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
